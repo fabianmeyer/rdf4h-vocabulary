@@ -2,9 +2,10 @@ flags: {}
 extra-package-dbs: []
 packages:
 - '.'
+# - '../rdf4h-vocabulary-generator/'
 - location:
     git: https://github.com/fabianmeyer/rdf4h-vocabulary-generator.git
-    commit: 41b7706870740329c05da4b2717e7f120b0ab21b
+    commit: 950f54509da293f2246281ce21cd52a5273cff6e
 extra-deps:
 - rdf4h-3.0.1
 resolver: lts-8.13

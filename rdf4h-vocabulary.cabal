@@ -20,8 +20,10 @@ library
                      , Data.RDF.Vocabulary.RDFS
                      , Data.RDF.Vocabulary.SHACL
                      , Data.RDF.Vocabulary.VANN
-                     , Data.RDF.Vocabulary.DCTerms                     
+                     , Data.RDF.Vocabulary.DCTerms
+                     , Data.RDF.Vocabulary.XSD
   build-depends:       base
+                     , text
                      , rdf4h
                      , rdf4h-vocabulary-generator
   default-language:    Haskell2010
